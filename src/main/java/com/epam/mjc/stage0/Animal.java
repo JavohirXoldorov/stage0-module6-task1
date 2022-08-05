@@ -12,7 +12,7 @@ public class Animal {
     }
 
     public String getDescription() {
-        String desc = "This animal is mostly " + color + ". It has ";
+        String desc = "This animal is mostly " + color + ". It has " + numberOfPaws + " ";
         if (numberOfPaws == 1) desc += "paw ";
         else desc += "paws ";
         desc += "and ";
